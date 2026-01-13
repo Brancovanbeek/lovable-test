@@ -11,7 +11,7 @@ interface SearchResults {
 
 // Keywords mapping for different query types
 const keywordMappings: Record<string, string[]> = {
-  person: ['wie', 'ben', 'jij', 'jezelf', 'over', 'profiel', 'naam', 'thomas'],
+  person: ['wie', 'ben', 'jij', 'jezelf', 'over', 'profiel', 'naam', 'Branco', 'designer', 'developer', 'ontwikkelaar', 'frontend'],
   projects: ['project', 'projecten', 'bouw', 'gebouwd', 'gemaakt', 'werk', 'app', 'investering', 'portfolio'],
   workRoles: ['werk', 'baan', 'ervaring', 'rol', 'functie', 'carrière', 'career', 'job', 'werkervaring'],
   faq: ['vraag', 'vragen', 'hoe', 'wat', 'waarom', 'contact', 'bereiken', 'achtergrond', 'visie', 'investeer'],

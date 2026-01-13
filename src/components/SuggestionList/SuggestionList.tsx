@@ -12,11 +12,10 @@ interface SuggestionListProps {
 }
 
 const defaultSuggestions: Suggestion[] = [
-  { id: '1', text: 'Wie ben je?', icon: '👤' },
-  { id: '2', text: 'Wat zijn je projecten?', icon: '🚀' },
-  { id: '3', text: 'Waar investeer je in?', icon: '💡' },
-  { id: '4', text: 'Wat is je achtergrond?', icon: '📚' },
-  { id: '5', text: 'Hoe kan ik contact opnemen?', icon: '✉️' },
+  { id: '1', text: 'Wie ben je?'},
+  { id: '2', text: 'Wat zijn je projecten?'},
+  { id: '3', text: 'Wat is je achtergrond?' },
+  { id: '4', text: 'Hoe kan ik contact opnemen?' },
 ];
 
 export function SuggestionList({

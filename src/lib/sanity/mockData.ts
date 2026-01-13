@@ -3,9 +3,9 @@ import type { Person, WorkRole, Project, FAQItem } from './client';
 
 export const mockPerson: Person = {
   _id: 'person-1',
-  name: 'Thomas de Vries',
-  role: 'Ondernemer & Investeerder',
-  bio: 'Ik ben een tech-ondernemer met een passie voor innovatie. Al meer dan 10 jaar bouw en investeer ik in digitale producten die mensen helpen. Van startups tot scale-ups, ik geloof in de kracht van technologie om echte problemen op te lossen.',
+  name: 'Branco van Beek',
+  role: 'Frontend Designer & Developer',
+  bio: 'Hoi, ik ben Branco. Een 19-jarige designer en developer uit Volendam met een passie voor ondernemen. Ik focus me op het bouwen van slimme websites waarbij AI en design samenkomen tot een unieke ervaring.',
   profilePhotos: [
     {
       _key: 'photo-1',
@@ -13,7 +13,7 @@ export const mockPerson: Person = {
         _ref: 'image-1',
         url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
       },
-      alt: 'Thomas de Vries',
+      alt: 'Branco van Beek',
     },
   ],
 };

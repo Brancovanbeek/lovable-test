@@ -11,11 +11,10 @@ import styles from './Index.module.css';
 type ViewState = 'home' | 'chat';
 
 const suggestions: Suggestion[] = [
-  { id: '1', text: 'Wie ben je?', icon: '👤' },
-  { id: '2', text: 'Wat zijn je projecten?', icon: '🚀' },
-  { id: '3', text: 'Waar investeer je in?', icon: '💡' },
-  { id: '4', text: 'Wat is je werkervaring?', icon: '💼' },
-  { id: '5', text: 'Hoe kan ik contact opnemen?', icon: '✉️' },
+  { id: '1', text: 'Wie ben je?'},
+  { id: '2', text: 'Wat zijn je projecten?' },
+  { id: '3', text: 'Wat is je werkervaring?' },
+  { id: '4', text: 'Hoe kan ik contact opnemen?' },
 ];
 
 export default function Index() {
@@ -146,7 +145,7 @@ export default function Index() {
 
           <footer className={styles.footer}>
             <p className={styles.footerText}>
-              © 2024 {mockData.person.name}. Gebouwd met ❤️
+              © 2024 {mockData.person.name}.
             </p>
           </footer>
         </div>
